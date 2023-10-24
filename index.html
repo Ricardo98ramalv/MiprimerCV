@@ -4,24 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida</title>
+<link rel="stylesheet" href="style.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+    <style>
+        table,td,tr,th{
+            border-collapse: collapse ;
+        border: 1px solid aqua  
+        }
+    </style>
 </head>
 <body>
 <header>
     <h1>RICARDO RAMIREZ</h1> 
-    <p><mark><em>Futuro Desarollador Web</em></mark></p>  
-    <h2><b>Más sobre mi</b></h2>
-    <p>Soy de Ecuador y tengo 25 años me interesa mucho la tecnologia y los deportes, estoy estudiando desarollo web e Ingles.</p>
+    <a href="https://www.linkedin.com/in/ricardo-ramirez-1b819528b/">Linkedin Profile</a><br>
+    <a href="mailto://ricardoram98alv@gmail.com ">Enviame un correo</a><br>
     <hr>
-</header>
-<h2>Habilidades Blandas</h2>
-<a><i>Trabajo en Equipo</i></a> <br>
-<a><i>Adaptación al cambio</i></a> <br>
-<a><i>Responsabilidad</i></a> <br>
+    <p><mark><em>Futuro Desarollador Web</em></mark></p>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#perfil">Más sobre mi</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#intereses">Intereses</a></li>
+                <li><a href="#Educacion">Educacion</a></li>
+            </ul>  
+            <hr>
+        </header>
+</nav>
+    <section id="perfil">
+        <h2 class="txt-primary"><b>Más sobre mi</b></h2>
+        <img src="micv.jpg" alt="Mifoto" width="200">
+        <p>Soy de Ecuador y tengo 25 años  me interesa mucho la tecnologia y los deportes, estoy estudiando <span>desarollo web e Ingles.</span> 
+           estoy buscando una oportunidad para poder desarollar mi talento y aportar con mis conocimientos
+        </p>
+        <hr>
+    </section>
+    <section id="habilidades">
+        <h2 class="txt-primary">Habilidades </h2>
+        <ul class="lista">
+            <a><li>Ingles</li></a> 
+            <a><li>HTML</li></a> 
+            <a><li>CSS</li></a> 
+            <a><li>javascript</li></a> 
+        </ul>
+ <hr>
+    </section>
+    <section id="intereses">
+        <h2 class="txt-primary">Intereses</h2>
+<ol type="a">
+<li> Trabajo en Equipos Dinamicos</li>
+<li> Proyectos Desafiantes</li>
+<li> Conocer nuevos idiomas y lugares</li>
+<li> Viajar</li>
+</ol>
 <hr>
-<h2>Intereses</h2>
-<a><u>JavaScript</u></a> <br>
-<a><u>HTML</u></a> <br>
-<a><u>CSS</u></a> <br>
+    </section>
+<section id="Educacion">
+<h2>Educación</h2>
+<table>
+    <caption>Educacion Porfesional</caption>
+<tr>
+    <th>Tipo</th>
+    <th>Estado</th>
+</tr>
+<tr>
+    <td>Ingenieria</td>
+    <td>Culminado</td>
+</tr>
+<tr>
+    <td>Desarollo Web</td>
+    <td>Cursando</td>
+</tr>
+<tr>
+    <td>Ingles</td>
+    <td>Cursando</td>
+</tr>
+</table>
+
+</section>
+</main>
 <hr>
+<footer>
+    <p class="txt-primary"><strong> &copy; Ricardo Ramirez</strong></p>
+    <hr>
+</footer>
 </body>
 </html>

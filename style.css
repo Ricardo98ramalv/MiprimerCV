@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+
+header{
+color: aliceblue;
+background-color: lightslategray;
+}
+
+h2{
+color: lightgreen;
+}
+span{
+color: lightgreen;
+}
+/* selector de clase */
+.txt-primary{
+text-decoration: underline;
+font-size: 28 px;
+}
+[href="https://www.linkedin.com/in/ricardo-ramirez-1b819528b/"]{
+color: lightgreen;
+
+}
+[href="mailto://ricardoram98alv@gmail.com "]{
+    color: lightgreen;
+    }
+h2:hover{
+    cursor: pointer;
+} 
+[href="https://www.linkedin.com/in/ricardo-ramirez-1b819528b/"]::before{
+ content: "🔎";
+    }
+
+[href="mailto://ricardoram98alv@gmail.com "]::before{
+   content: "✉️";
+        }
